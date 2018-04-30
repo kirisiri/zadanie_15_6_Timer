@@ -42,9 +42,9 @@ stopButton.addEventListener('click', () => stopwatch.stop());
 start() {
     if (!this.running) {
         this.running = true;
-        this.watch = setInterval(() => this.step(), 10)
+        this.watch = setInterval(() => this.step(), 10);
     }
-}
+};
 
 step() {
 	if (!this.running) return;
